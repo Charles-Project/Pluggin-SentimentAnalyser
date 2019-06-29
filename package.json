@@ -1,0 +1,23 @@
+{
+  "name": "plugging-sentiment-charles",
+  "version": "1.0.0",
+  "description": "A sentiment analyser app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charles-Project/Pluggin-SentimentAnalyser.git"
+  },
+  "keywords": [
+    "npm-sentiment-analyser",
+    "npm"
+  ],
+  "author": "Ernest Marc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Charles-Project/Pluggin-SentimentAnalyser/issues"
+  },
+  "homepage": "https://github.com/Charles-Project/Pluggin-SentimentAnalyser#readme"
+}
