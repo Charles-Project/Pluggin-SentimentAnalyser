@@ -1,12 +1,16 @@
 const Sentiment = require("sentiment");
-
 const testingSentiment = new Sentiment();
-const wordToTest = testingSentiment.analyze("I hate u more");
 
-if (wordToTest.positive.length > wordToTest.negative.length) {
-  console.log("positive statement");
-} else if (wordToTest.positive.length < wordToTest.negative.length) {
-  console.log("negative statement");
-} else {
-  console.log("neutral statement");
-}
+const wordToTest = sentence => {
+  const wordTo = testingSentiment.analyze(sentence);
+
+  if (wordTo.positive.length > wordTo.negative.length) {
+    return "positive";
+  } else if (wordTo.positive.length < wordTo.negative.length) {
+    return "negative";
+  } else {
+    return "neutral";
+  }
+};
+
+module.exports = wordToTest;

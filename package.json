@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Charles-Project/Pluggin-SentimentAnalyser/issues"
   },
-  "homepage": "https://github.com/Charles-Project/Pluggin-SentimentAnalyser#readme"
+  "homepage": "https://github.com/Charles-Project/Pluggin-SentimentAnalyser#readme",
+  "dependencies": {
+    "sentiment": "^5.0.1"
+  }
 }
